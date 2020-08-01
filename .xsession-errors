@@ -1,0 +1,220 @@
+GNOME_KEYRING_SOCKET=/tmp/keyring-wrtTgd/socket
+SSH_AUTH_SOCK=/tmp/keyring-wrtTgd/socket.ssh
+GNOME_KEYRING_PID=8628
+socket(): Address family not supported by protocol
+
+(polkit-gnome-authentication-agent-1:8685): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:8685): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+Failed to play sound: File or data not found
+** Message: applet now removed from the notification area
+Initializing nautilus-open-terminal extension
+
+** (gnome-panel:8663): WARNING **: panel-applet-frame.c:1288: failed to load applet OAFIID:GnoteApplet:
+(null)
+** Message: applet now embedded in the notification area
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.Paths is null
+Full stack: Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+@resource:///modules/sessionstore/SessionWorker.js:30:41
+
+*************************
+console.error: 
+  Could not write session state file 
+  Message: TypeError: this.Paths is null
+  Stack:
+    Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+@resource:///modules/sessionstore/SessionWorker.js:30:41
+
+  Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+@resource:///modules/sessionstore/SessionWorker.js:30:41
+
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/cloudera/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.5.1.20150109-1820.xml
+org.eclipse.m2e.logback.configuration: Initializing logback
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+1591448649418	addons.repository	WARN	Search failed when repopulating cache
+1591448650350	addons.update-checker	WARN	Update manifest was not valid XML
+
+(file-roller:21377): Gtk-CRITICAL **: IA__gtk_container_remove: assertion `GTK_IS_TOOLBAR (container) || widget->parent == GTK_WIDGET (container)' failed
+
+(file-roller:21377): Gtk-CRITICAL **: gtk_box_pack: assertion `child->parent == NULL' failed
+
+(file-roller:21377): Gtk-WARNING **: Attempting to add a widget with type GtkHBox to a GtkFrame, but as a GtkBin subclass a GtkFrame can only contain one widget at a time; it already contains a widget of type GtkHBox
+console.warn: Asynchronous operation was aborted as selection changed.
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+1591625196672	addons.repository	WARN	Search failed when repopulating cache
+1591625197517	addons.update-checker	WARN	Update manifest was not valid XML
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.animationsActor23
+
+(file-roller:25428): Gtk-CRITICAL **: IA__gtk_container_remove: assertion `GTK_IS_TOOLBAR (container) || widget->parent == GTK_WIDGET (container)' failed
+
+(file-roller:25428): Gtk-CRITICAL **: gtk_box_pack: assertion `child->parent == NULL' failed
+
+(file-roller:25428): Gtk-WARNING **: Attempting to add a widget with type GtkHBox to a GtkFrame, but as a GtkBin subclass a GtkFrame can only contain one widget at a time; it already contains a widget of type GtkHBox
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+1596298843563	addons.repository	WARN	Search failed when repopulating cache
+1596298844284	addons.update-checker	WARN	Update manifest was not valid XML
+Performance warning: Async animation disabled because frame size (1120, 298) is bigger than the viewport (647, 657) or the visual rectangle (1120, 298) is larger than the max allowable value (17895698) [div]
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8690): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+console.warn: Asynchronous operation was aborted as selection changed.
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.animationsActor23
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-volume-control-applet:8697): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8694): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+Window manager warning: Received a _NET_WM_MOVERESIZE message for 0x340009f (carolmaia9); these messages lack timestamps and therefore suck.

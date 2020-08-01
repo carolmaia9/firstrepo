@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5ece4e626a245f413c130a77"},"nome":"Jose","postagem":"Bons produtos!","data":"31-06-2019"}
+{"_id":{"$oid":"5ece5008d3e78a59322841a6"},"nome":"Jose","postagem":"Bons produtos!","data":"31-06-2019"}
+{"_id":{"$oid":"5ece501bd3e78a59322841a7"},"nome":"Maria","postagem":"Encontrei tudo o que procurava!","data":"14-06-2019"}
+{"_id":{"$oid":"5ece5035d3e78a59322841a8"},"nome":"Lucas Andrade","postagem":"Otimo atendimento!","data":"12-04-2019"}
+{"_id":{"$oid":"5ece50d5d3e78a59322841a9"},"nome":"Jose","postagem":"Loja suja!","data":"30-01-2019"}
+{"_id":{"$oid":"5ece55b9d3e78a59322841aa"},"nome":"Andre","postagem":"Produtos caros!","data":"12-01-2019","idade":25.0}
+{"_id":{"$oid":"5ece55ded3e78a59322841ab"},"nome":"Ricardo","postagem":"Produtos caros!","data":"14-01-2019","idade":12.0}

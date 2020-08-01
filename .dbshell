@@ -1,0 +1,28 @@
+show dbs
+db
+use dbmidias
+db.post.insert({nome:"Jose",postagem:"Bons produtos!",data:"31-06-2019"})
+;
+dv
+db
+use dbmidias
+db.post.insert({nome:"Antonio",postagem:"Minha bike quebrou!",data:"26-05-2019"}, {nome:"Maria",postagem:"Encontrei tudo o que procurava!",data:"14-06-2019"}, {nome:"Lucas Andrade",postagem:"Otimo atendimento!",data:"12-04-2019"} ]
+db.post.insert({nome:"Antonio",postagem:"Minha bike quebrou!",data:"26-05-2019"}, {nome:"Maria",postagem:"Encontrei tudo o que procurava!",data:"14-06-2019"}, {nome:"Lucas Andrade",postagem:"Otimo atendimento!",data:"12-04-2019"} ])
+db.post.insert({nome:"Jose",postagem:"Bons produtos!",data:"31-06-2019"})
+db.post.insert({nome:"Maria",postagem:"Encontrei tudo o que procurava!",data:"14-06-2019"})
+db.post.insert({nome:"Lucas Andrade",postagem:"Otimo atendimento!",data:"12-04-2019"})
+db.posts.find()
+db.post.find()
+db.post.find().pretty()
+db.post.find({nome:"Jose"})
+db.post.insert({nome:"Jose",postagem:"Loja suja!",data:"30-01-2019"})
+db.post.insert({nome:"Andre",postagem:"Produtos caros!",data:"12-01-2019",idade:25})
+db.post.insert({nome:"Ricardo",postagem:"Produtos caros!",data:"14-01-2019",idade:12})
+db.post.find({postagem:"Produtos caros!",idade:{$lte:12}})
+db.post.find({$or:[{nome:"Jose"},{nome:"Antonio"}]})
+db.post.find({postagem:{$in:["Produtos caros","Loja suja!"]}})
+use dbmidias
+db.post.find()
+use dbcontratos
+db.contratos.find().pretty()
+db.contratos.find({idcliente:"2"}).pretty()

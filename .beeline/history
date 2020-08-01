@@ -1,0 +1,189 @@
+!connect jdbc::hive2:://
+!connect jdbc::hive2://
+!connect jdbc:hive2://
+show databases
+show database;
+show databases;
+create database ed;
+use ed;
+creat table dimensaocliente(chavecliente int, idcliente int, cliente string, estado char(2), sexo char(1), status string, datainiciovalidade date, datafimvalidade date)
+row format delimited fields terminated by ',' location '/user/cloudera/dimensaocliente/;
+create table dimensaocliente(chavecliente int, idcliente int, cliente string, estado char(2), sexo char(1), status string, datainiciovalidade date, datafimvalidade date)
+row format delimited fields terminated by ',' location '/user/cloudera/dimensaocliente/;
+row format delimited fields terminated by ',' location '/user/cloudera/dimensaocliente/';
+create table dimensaocliente(chavecliente int, idcliente int, cliente string, estado char(2), sexo char(1), status string, datainiciovalidade date, datafimvalidade date) row format delimited fields terminated by ',' location '/user/cloudera/dimensaocliente/';
+select * from dimensaocliente limit 10;
+create table dimensaotempo(chavetempo int, data date, dia int, mes int, ano int, diasemana int, trimestre int) row format delimiter fields terminated by ',' location '/user/cloudera/dimensaotempo';
+create table dimensaotempo(chavetempo int, data date, dia int, mes int, ano int, diasemana int, trimestre int) row format delimited fields terminated by ',' location '/user/cloudera/dimensaocliente/';
+use ed;
+show databases;
+!connect jdbc:hive2://
+use ed;
+create table dimensaocliente(chavecliente int, idcliente int, cliente string, estado char(2), sexo char(1), status string, datainiciovalidade date, datafimvalidade date) row format delimited fields terminated by ',' location '/user/cloudera/dimensaocliente/';
+create table dimensaotempo(chavetempo int, data date, dia int, mes int, ano int, diasemana int, trimestre int) row format delimited fields terminated by ',' location '/user/cloudera/dimensaotempo/';
+drop table dimensaotempo;
+create table dimensaotempo(chavetempo int, data date, dia int, mes int, ano int, diasemana int, trimestre int) row format delimited fields terminated by ',' location '/user/cloudera/dimensaotempo/';
+select * from dimensaotempo limit 10;
+create table dimensaoproduto (chaveproduto int, idproduto int, produto string, datainiciovalidade date, datafimvalidade date) row format delimited fields terminated by ',' location '/user/cloudera/dimensaoproduto/';
+select * from dimensaoproduto;
+create table dimensaovendedor (chavevendedor int, idvendedor int, nome string, datainiciovalidade date, datafimvalidade date) row format delimited fields terminated by ',' location '/user/cloudera/dimensaovendedor/';
+select * from dimensaovendedor limit 10;
+create table fatovendas (chavevendas int, chavevendedor int, chaveproduto int, chavetempo int, quantidade int, valorunitario float, valortotal float, desconto float) row format delimited fields terminated by ',' location '/user/cloudera/fatovendas/';
+select * from fatovendas limit 10;
+drop table fatovendas;
+create table fatovendas (chavevendas int, chavevendedor int, chavecliente int, chaveproduto int,  chavetempo int, quantidade int, valorunitario float, valortotal float, desconto float) row format delimited fields terminated by ',' location '/user/cloudera/fatovendas/';
+set hive.exec.dynamic.partition.mode=nonstrict;
+create table des_vendas_part(quantidade int,valortotal float ) PARTITIONED BY(estado char(2));
+INSERT OVERWRITE TABLE des_vendas_part PARTITION(estado)
+SELECT quantidade,valortotal,estado from  des_vendas;
+select * from des_vendas_part limit 10;
+drop des_vendas_part
+drop des_vendas_part;
+create table des_vendas as 
+select 
+       dc.cliente,
+       dc.estado,
+       dc.sexo,
+       dc.status,
+       fv.quantidade,
+       fv.valorunitario,
+       fv.valortotal,
+       fv.desconto,
+       dp.produto,
+       dt.data,
+       dt.dia,
+       dt.mes,
+       dt.ano,
+       dt.trimestre,
+       dv.nome
+  from dimensaocliente dc
+  join fatovendas fv  on fv.chavecliente = dc.chavecliente
+  join dimensaoproduto dp on dp.chaveproduto = fv.chaveproduto
+  join dimensaotempo dt on dt.chavetempo = fv.chavetempo
+  join dimensaovendedor dv on dv.chavevendedor = fv.chavevendedor;
+create table des_vendas as 
+select 
+       dc.cliente,
+       dc.estado,
+       dc.sexo,
+       dc.status,
+       fv.quantidade,
+       fv.valorunitario,
+       fv.valortotal,
+       fv.desconto,
+       dp.produto,
+       dt.data,
+       dt.dia,
+       dt.mes,
+       dt.ano,
+       dt.trimestre,
+       dv.nome
+  from dimensaocliente dc
+  join fatovendas fv  on fv.chavecliente = dc.chavecliente
+  join dimensaoproduto dp on dp.chaveproduto = fv.chaveproduto
+  join dimensaotempo dt on dt.chavetempo = fv.chavetempo
+  join dimensaovendedor dv on dv.chavevendedor = fv.chavevendedor;
+use ed;
+create table des_vendas as 
+select 
+       dc.cliente,
+       dc.estado,
+       dc.sexo,
+       dc.status,
+       fv.quantidade,
+       fv.valorunitario,
+       fv.valortotal,
+       fv.desconto,
+       dp.produto,
+       dt.data,
+       dt.dia,
+       dt.mes,
+       dt.ano,
+       dt.trimestre,
+       dv.nome
+  from dimensaocliente dc
+  join fatovendas fv  on fv.chavecliente = dc.chavecliente
+  join dimensaoproduto dp on dp.chaveproduto = fv.chaveproduto
+  join dimensaotempo dt on dt.chavetempo = fv.chavetempo
+  join dimensaovendedor dv on dv.chavevendedor = fv.chavevendedor;
+select * from des_vendas
+select * from des_vendas limit 10;
+select * from fatovendas limit 10;
+select * from dimensaocliente limit 10/
+select * from dimensaocliente limit 10;
+select * from dimensaocliente;
+!connect jdbc:hive2://
+create database locadora;
+use locadora;
+select * from clientes;
+select count(*) from locacao;
+select count(*) from clientes;
+select count(*) from LOCACAO;
+select count(*) from locacao;
+;
+select count(*) from locacao;
+CREATE VIEW locperiodo
+AS
+SELECT veic.modelo as Modelo,
+MONTH(loc.datalocacao) as Mes,
+YEAR(loc.datalocacao) as ANO,
+COUNT(*) as Total 
+from locacao loc
+join veiculos veic on (loc.idveiculo = veic.idveiculo)
+GROUP BY 1,2,3,4
+ORDER BY 5 desc;
+CREATE VIEW locperiodo
+AS
+SELECT veic.modelo as Modelo,
+MONTH(loc.datalocacao) as Mes,
+YEAR(loc.datalocacao) as ANO,
+COUNT(*) as Total 
+from locacao loc
+join veiculos veic on (loc.idveiculo = veic.idveiculo)
+GROUP BY 1,2,3
+ORDER BY 4 desc;
+select * from veiculos limit 5;
+CREATE VIEW locperiodo
+AS
+SELECT veic.modelo as Modelo,
+MONTH(loc.datalocacao) as Mes,
+YEAR(loc.datalocacao) as ANO,
+COUNT(*) as Total 
+from locacao loc
+join veiculos veic on (loc.idveiculo = veic.idveiculo)
+GROUP BY veic.modelo,MONTH(loc.datalocacao),YEAR(loc.datalocacao)
+ORDER BY Total desc;
+select * from locperiodo limit 5;
+CREATE VIEW locdespachante
+AS
+SELECT desp.nome, modelo as Modelo,
+MONTH(loc.datalocacao) as Mes,
+YEAR(loc.datalocacao) as ANO,
+COUNT(*) as Total 
+from locacao loc
+join veiculos veic on (loc.idveiculo = veic.idveiculo)
+join despachantes desp on (loc.iddespachante = desp.iddespachante)
+GROUP BY desp.nome,veic.modelo,MONTH(loc.datalocacao),YEAR(loc.datalocacao)
+ORDER BY Total desc;
+select * from locdespachante limit 5;
+CREATE VIEW locfaturamento
+AS
+SELECT
+MONTH(loc.datalocacao) as Mes,
+YEAR(loc.datalocacao) as ANO,
+SUM(loc.total) as Total 
+from locacao loc
+GROUP BY MONTH(loc.datalocacao),YEAR(loc.datalocacao)
+ORDER BY Mes,Ano;
+select * from locfaturamento limit 5;
+CREATE VIEW locclientes
+AS
+SELECT cli.nome,
+MONTH(loc.datalocacao) as Mes,
+YEAR(loc.datalocacao) as ANO,
+COUNT(*) as Total 
+from locacao loc
+join clientes cli on (cli.idcliente = loc.idcliente)
+GROUP BY cli.nome,MONTH(loc.datalocacao),YEAR(loc.datalocacao)
+ORDER BY cli.nome;
+select * from locclientes limit 5;

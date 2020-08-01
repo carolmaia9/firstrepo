@@ -1,0 +1,62 @@
+GNOME_KEYRING_SOCKET=/tmp/keyring-cXVyaJ/socket
+SSH_AUTH_SOCK=/tmp/keyring-cXVyaJ/socket.ssh
+GNOME_KEYRING_PID=8457
+socket(): Address family not supported by protocol
+
+** (gnome-panel:8498): CRITICAL **: panel_key_file_load_from_uri: assertion `uri != NULL' failed
+
+** (gnome-panel:8498): CRITICAL **: panel_key_file_load_from_uri: assertion `uri != NULL' failed
+Failed to play sound: File or data not found
+
+(polkit-gnome-authentication-agent-1:8515): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:8515): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+
+** (gnome-panel:8498): WARNING **: panel-applet-frame.c:1288: failed to load applet OAFIID:GnoteApplet:
+(null)
+** Message: applet now removed from the notification area
+Initializing nautilus-open-terminal extension
+** Message: applet now embedded in the notification area
+
+(gnome-power-manager:8542): Gdk-CRITICAL **: IA__gdk_window_thaw_toplevel_updates_libgtk_only: assertion `private->update_and_descendants_freeze_count > 0' failed
+1590357378891	addons.xpi-utils	ERROR	Unable to read anything useful from the database
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/cloudera/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.5.1.20150109-1820.xml
+org.eclipse.m2e.logback.configuration: Initializing logback
+1590412884501	addons.repository	WARN	Search failed when repopulating cache
+1590412885568	addons.update-checker	WARN	Update manifest was not valid XML
+Window manager warning: Received a _NET_WM_MOVERESIZE message for 0x3c00081 (pgdg-redha); these messages lack timestamps and therefore suck.
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(nm-applet:8536): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8542): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8542): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8542): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(gnome-power-manager:8542): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(firefox:14053): Gtk-CRITICAL **: IA__gtk_clipboard_set_with_data: assertion `targets != NULL' failed
